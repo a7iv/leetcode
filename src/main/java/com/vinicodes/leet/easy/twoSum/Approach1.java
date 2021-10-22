@@ -1,11 +1,11 @@
-package com.vinicodes.leet.easy.p1_twosum;
+package com.vinicodes.leet.easy.twoSum;
 
 /**
  * TIME: O(n^2) - n square
  * SPACE: O(n)
  */
 
-public class Iterative {
+public class Approach1 {
     public int[] twoSum(int[] nums, int target) {
         int result[] = new int[2];
 

@@ -1,4 +1,4 @@
-package com.vinicodes.leet.easy.p1_twosum;
+package com.vinicodes.leet.easy.twoSum;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import java.util.Map;
  * SPACE: O(n)
  */
 
-public class WithMap {
+public class Approach2 {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> valIdxMap = new HashMap<Integer, Integer>();
 
